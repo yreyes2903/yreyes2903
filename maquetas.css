@@ -52,7 +52,7 @@
 
 .item1 {  
   grid-column-gap: 2px;    
-  border: #ffffff 5px solid;
+  border:  #00000030 2px solid;
   align-items: center;
   justify-content: center;  
   background: #ffffff;
@@ -98,16 +98,13 @@
   margin-left: 15px;
 }
 
-.grid-centro {
-   
+.grid-centro {   
    width: 50px;
    height: 50px;   
-   margin-left: 20px;
-   background: fuchsia;
+   margin-left: 20px;   
    border-radius: 0.7em;
    line-height: 50px;
-   text-align: center;  
-
+   text-align: center;
 }
 
 .grid-centro1 {      
@@ -118,37 +115,20 @@
    line-height: 50px;
 }
 
-.grid-centro2 {    
-   width: 50px;
-   height: 50px;
-   border: fuchsia;
-   margin-left: 20px;
+.c-f {
+   background: fuchsia;   
+}
+
+.c-v {
    background: #09d69e;
-   border-radius: 0.7em;
-   line-height: 50px;
-   text-align: center;
 }
 
-.grid-centro3 {      
-   width: 50px;
-   height: 50px;
-   border: #ff8000;
-   margin-left: 20px;
+.c-n {
    background: #ff8000;
-   border-radius: 0.7em;
-   line-height: 50px;
-   text-align: center;
 }
 
-.grid-centro4 {     
-   width: 50px;
-   height: 50px;
-   border: #02c0e0;
-   margin-left: 20px;
+.c-a {
    background: #02c0e0;
-   border-radius: 0.7em;
-   line-height: 50px;
-   text-align: center;
 }
 
 body {
